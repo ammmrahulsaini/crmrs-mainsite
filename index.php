@@ -1,5 +1,6 @@
-<?php include 'header.php'; ?>
 
+
+<?php include 'header.php'; ?>
 
 <span id="top-anchor"></span>
 <header class="hero">

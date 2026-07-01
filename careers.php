@@ -44,16 +44,7 @@
   .panel h2{font-size:18px;margin-bottom:2px}
   .panel p{font-size:14px;color:var(--muted)}
 
-  .btn{
-    display:inline-flex;align-items:center;justify-content:center;gap:8px;
-    font-weight:700;font-size:15px;padding:13px 22px;border-radius:12px;
-    background:var(--ink);color:#fff;transition:transform .2s,background .2s;
-  }
-  .btn:hover{transform:translateY(-2px);background:#000}
 
-  footer{border-top:1px solid var(--line);padding:26px 0;margin-top:40px}
-  .foot-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;font-size:13px;color:var(--muted)}
-  @media(max-width:520px){.careers{padding:64px 0}}
 </style>
 
 <main>
