@@ -58,6 +58,80 @@ if (isset($_COOKIE['series_id']) && isset($_COOKIE['remember_token']))
 
 include BASE_PATH.'/includes/header.php';
 ?>
+<style>
+body{
+    background:#f7f8fc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-panel{
+    border:0;
+    border-radius:15px;
+    overflow:hidden;
+    background:#fff;
+    box-shadow:0 15px 40px rgba(0,0,0,.12);
+}
+
+.login-panel .panel-heading{
+    background:linear-gradient(120deg,#FB923C,#F97316);
+    color:#fff;
+    font-size:22px;
+    font-weight:600;
+    text-align:center;
+    padding:18px;
+    border:none;
+}
+
+.login-panel .panel-body{
+    padding:30px;
+    background:#fff;
+}
+
+.control-label{
+    color:#333;
+    font-weight:600;
+    margin-bottom:6px;
+}
+
+.form-control{
+    height:45px;
+    border-radius:8px;
+    border:1px solid #ddd;
+    box-shadow:none;
+}
+
+.form-control:focus{
+    border-color:#FB923C;
+    box-shadow:0 0 0 3px rgba(251,146,60,.15);
+}
+
+.checkbox label{
+    color:#555;
+}
+
+.loginField{
+    width:100%;
+    height:45px;
+    border:none;
+    border-radius:8px;
+    background:linear-gradient(120deg,#FB923C,#F97316);
+    color:#fff;
+    font-size:16px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.loginField:hover{
+    background:linear-gradient(120deg,#F97316,#EA580C);
+    color:#fff;
+    transform:translateY(-2px);
+    box-shadow:0 8px 20px rgba(249,115,22,.35);
+}
+
+.alert{
+    border-radius:8px;
+}
+</style>
 <div id="page-" class="col-md-4 col-md-offset-4">
 	<form class="form loginform" method="POST" action="authenticate.php">
 		<div class="login-panel panel panel-default">
